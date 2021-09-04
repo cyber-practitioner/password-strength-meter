@@ -1,0 +1,1 @@
+& C:/Users/FIREBLZE/.virtualenvs/django-enOUqKrn/Scripts/Activate.ps1

@@ -1,0 +1,48 @@
+<div class='state'>
+{% if pred == 0 %}
+<p> Pred : {{pred}} </p>
+<p class='one'> Your password too weak may be broken very easily</p>
+ {% endif %}
+{% if pred == 1 %}
+<p> Pred : {{pred}} </p>
+    <p class='two'> Your password  is average and can be cracked with some time</p>
+{% endif %}
+{% if pred == 2 %}
+<p> Pred : {{pred}} </p>
+    <p class='three'> Your password  is strong the attacker may give up cracking your password</p>
+{% endif %}
+</div>
+
+<style>
+* {
+    margin:0;
+    padding:0;
+}
+.three {
+    background-image:url(https://thumbs.gfycat.com/BigImmediateIraniangroundjay-max-1mb.gif);
+    -webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+.one {
+      background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3yFx-DLF7JmLUv1Yy1OFkOPSj9N5DyG68ug&usqp=CAU);
+      -webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+    height:100%;
+}
+.two {
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqt9Q7eWMyzVEbPcoaSBnKFylKpxdY3C_l1w&usqp=CAU);
+    -webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+        height:100%;
+}
+body {
+    height:100%;
+}
+. state {
+    text-align:center;
+}
+</style>
+
