@@ -16,6 +16,6 @@
   <code> pip install requirements.py </code>
   <li>Navigate to the folder where the files are installed </li>
  <li> Run the server<li>
-  <code> py manage.oy runserver</li>
+  <code> py manage.py runserver</li>
 
 ![front](https://user-images.githubusercontent.com/59438117/143777444-2bbb68c9-82c4-44f9-9b48-257843abde15.jpg)
