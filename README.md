@@ -52,9 +52,6 @@ This application is built using Django, a high-level Python web framework that e
 
 The machine learning model can be retrained or adjusted by modifying `keras_model.py`. Ensure you have a dataset of passwords labeled by their strength levels to train the model effectively.
 
-## Contributing
-
-Contributions to improve the application or its underlying model are welcome. Please follow the standard fork-and-pull request workflow on GitHub.
 
 ## License
 
