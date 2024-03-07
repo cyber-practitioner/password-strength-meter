@@ -1,4 +1,5 @@
 # Password Strength Classifier
+![Password Strength Classifier Interface](Images/front.jpg)
 
 ## Overview
 
