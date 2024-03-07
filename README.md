@@ -51,10 +51,3 @@ This application is built using Django, a high-level Python web framework that e
 ### Customizing the Model
 
 The machine learning model can be retrained or adjusted by modifying `keras_model.py`. Ensure you have a dataset of passwords labeled by their strength levels to train the model effectively.
-
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE.md file for details.
-
----
